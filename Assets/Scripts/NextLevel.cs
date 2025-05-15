@@ -7,7 +7,7 @@ public class NextLevel : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Game Over You Win");
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene("Level2");
         }
     }
 }
