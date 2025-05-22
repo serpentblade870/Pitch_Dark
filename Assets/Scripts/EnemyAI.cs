@@ -69,7 +69,7 @@ public class EnemyAI : MonoBehaviour
                 {
                     Debug.Log("Enemy touched player! Destroying player.");
                     // Destroy(gameObject);
-                    Destroy(player.gameObject);
+                    //Destroy(player.gameObject);
                     SceneManager.LoadScene("GameOver");
 
                 }
